@@ -1,0 +1,32 @@
+/* Default (Light Theme) */
+body {
+    background-color: white;
+    color: black;
+}
+
+/* Dark Theme */
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.dark-mode .chartBox {
+    background: #333;
+    color: white;
+    border-color: #ffffff;
+}
+
+.dark-mode .table-bordered > thead > tr > th {
+    background-color: #555;
+    color: white;
+}
+
+.dark-mode footer {
+    background-color: #333;
+    color: #fff;
+}
+
+.dark-mode .btn-default {
+    background-color: #444;
+    color: white;
+}
